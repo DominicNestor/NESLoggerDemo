@@ -10,7 +10,6 @@
 		8E8E528C1AC1302E00DB8BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8E528B1AC1302E00DB8BAD /* main.m */; };
 		8E8E528F1AC1302E00DB8BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8E528E1AC1302E00DB8BAD /* AppDelegate.m */; };
 		8E8E52921AC1302E00DB8BAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8E52911AC1302E00DB8BAD /* ViewController.m */; };
-		8E8E52951AC1302E00DB8BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8E52931AC1302E00DB8BAD /* Main.storyboard */; };
 		8E8E52971AC1302E00DB8BAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E8E52961AC1302E00DB8BAD /* Images.xcassets */; };
 		8E8E529A1AC1302E00DB8BAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8E52981AC1302E00DB8BAD /* LaunchScreen.xib */; };
 		8E8E52A61AC1302F00DB8BAD /* NESLoggerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8E52A51AC1302F00DB8BAD /* NESLoggerDemoTests.m */; };
@@ -34,7 +33,6 @@
 		8E8E528E1AC1302E00DB8BAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8E8E52901AC1302E00DB8BAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8E8E52911AC1302E00DB8BAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8E8E52941AC1302E00DB8BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E8E52961AC1302E00DB8BAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8E8E52991AC1302E00DB8BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8E8E529F1AC1302F00DB8BAD /* NESLoggerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESLoggerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +86,6 @@
 				8E8E52901AC1302E00DB8BAD /* ViewController.h */,
 				8E8E52911AC1302E00DB8BAD /* ViewController.m */,
 				8E8E52AF1AC1304E00DB8BAD /* NESLogger.h */,
-				8E8E52931AC1302E00DB8BAD /* Main.storyboard */,
 				8E8E52961AC1302E00DB8BAD /* Images.xcassets */,
 				8E8E52981AC1302E00DB8BAD /* LaunchScreen.xib */,
 				8E8E52891AC1302E00DB8BAD /* Supporting Files */,
@@ -203,7 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E8E52951AC1302E00DB8BAD /* Main.storyboard in Resources */,
 				8E8E529A1AC1302E00DB8BAD /* LaunchScreen.xib in Resources */,
 				8E8E52971AC1302E00DB8BAD /* Images.xcassets in Resources */,
 			);
@@ -248,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8E8E52931AC1302E00DB8BAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E8E52941AC1302E00DB8BAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8E8E52981AC1302E00DB8BAD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
