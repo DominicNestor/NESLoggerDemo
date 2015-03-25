@@ -1,6 +1,6 @@
 //
 //  NESLogger.h
-//  NESExtension
+//  NESLoggerDemo
 //
 //  Created by Nestor on 23/3/20.
 //  Copyright (c) 2015年 NesTalk. All rights reserved.
