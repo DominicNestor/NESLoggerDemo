@@ -40,6 +40,8 @@
 		8E8E529F1AC1302F00DB8BAD /* NESLoggerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESLoggerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8E52A41AC1302F00DB8BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E8E52A51AC1302F00DB8BAD /* NESLoggerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NESLoggerDemoTests.m; sourceTree = "<group>"; };
+		8E8E52AF1AC1304E00DB8BAD /* NESLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NESLogger.h; sourceTree = "<group>"; };
+		8EE6099A1AC2778A006B1697 /* NESLoggerDemoPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NESLoggerDemoPrefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				8E8E528E1AC1302E00DB8BAD /* AppDelegate.m */,
 				8E8E52901AC1302E00DB8BAD /* ViewController.h */,
 				8E8E52911AC1302E00DB8BAD /* ViewController.m */,
+				8E8E52AF1AC1304E00DB8BAD /* NESLogger.h */,
 				8E8E52931AC1302E00DB8BAD /* Main.storyboard */,
 				8E8E52961AC1302E00DB8BAD /* Images.xcassets */,
 				8E8E52981AC1302E00DB8BAD /* LaunchScreen.xib */,
@@ -98,6 +101,7 @@
 			children = (
 				8E8E528A1AC1302E00DB8BAD /* Info.plist */,
 				8E8E528B1AC1302E00DB8BAD /* main.m */,
+				8EE6099A1AC2778A006B1697 /* NESLoggerDemoPrefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -345,6 +349,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NESLoggerDemo/NESLoggerDemoPrefix.pch";
 				INFOPLIST_FILE = NESLoggerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +361,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NESLoggerDemo/NESLoggerDemoPrefix.pch";
 				INFOPLIST_FILE = NESLoggerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +422,7 @@
 				8E8E52AB1AC1302F00DB8BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E8E52AC1AC1302F00DB8BAD /* Build configuration list for PBXNativeTarget "NESLoggerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				8E8E52AE1AC1302F00DB8BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
